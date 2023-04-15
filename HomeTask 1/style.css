@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.mjd1 {
+    background-color: rgb(11, 23, 87);
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    background-color: white;
+    height: 4rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2px;
+}
+
+.logo>h2 {
+    font-size: 1.5rem;
+}
+
+.logo>p {
+    font-size: 0.7rem;
+}
+
+.filter-bar {
+    margin-left: 25px;
+}
+
+.sel {
+    padding-right: 80px;
+}
+
+.mjd2>h2 {
+    text-align: right;
+    margin-left: 7px;
+}
+
+.mjd2 {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mail-subscribe-input {
+    display: flex;
+}
+
+.mail-subscribe-input>button {
+    padding: 5px 8px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.divider {
+    height: 1px;
+    background-color: black;
+}
+
+article {
+    margin-top: 10px red;
+    padding: 10px 0px;
+    display: flex;
+    flex: wrap;
+    border-top: 1px solid black;
+}
+
+.thumnail-img {
+    flex: 1;
+    height: 10rem;
+    width: 10rem;
+    padding-left: 10px;
+}
+
+.thumnail-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.contain {
+    flex: 4;
+    margin-left: 2rem;
+}
+
+.post-date {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post-description {
+    pa
+}
+
+.divider-post {
+    height: 0.7px;
+    background-color: rgba(105, 103, 103, 0.589);
+}
+
+.readmore-button {
+    background-color: orangered;
+    margin: 8px 0px;
+    padding: 8px 10px;
+    color: white;
+    border: none;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgb(117, 117, 117);
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    article {
+        flex-direction: column;
+    }
+    .thumnail-img {
+        margin: auto;
+    }
+    .mjd2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+    .logos {
+        margin: 10px 0px;
+    }
+    .filter-bar {
+        margin: 10px 0px;
+    }
+}
